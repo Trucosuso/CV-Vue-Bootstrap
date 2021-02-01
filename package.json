@@ -26,13 +26,45 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
+      "plugin:vue/recommended",
       "eslint:recommended"
     ],
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "vue/html-indent": [
+        "warn",
+        4
+      ],
+      "vue/component-name-in-template-casing": [
+        "warn",
+        "PascalCase"
+      ],
+      "vue/no-reserved-component-names": [
+        "error"
+      ],
+      "vue/padding-line-between-blocks": [
+        "warn",
+        "always"
+      ],
+      "vue/require-direct-export": [
+        "error"
+      ],
+      "vue/require-name-property": [
+        "error"
+      ],
+      "vue/script-indent": [
+        "warn",
+        4,
+        {
+          "switchCase": 1
+        }
+      ],
+      "vue/v-on-function-call": [
+        "error"
+      ]
+    }
   },
   "browserslist": [
     "> 1%",
