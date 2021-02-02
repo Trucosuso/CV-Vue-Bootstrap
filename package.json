@@ -69,7 +69,10 @@
       "vue/v-on-function-call": [
         "error"
       ],
-      "quotes": ["warn", "double"]
+      "quotes": [
+        "warn",
+        "double"
+      ]
     }
   },
   "browserslist": [
