@@ -1,0 +1,470 @@
+{
+    "es": {
+        "sectionNames": {
+            "personalData": "Sobre mi",
+            "experience": "Experiencia",
+            "education": "Educación",
+            "skills": "Habilidades laborales",
+            "languages": "Idiomas",
+            "portfolio": "Portfolio",
+            "interpersonalSkills": "Habilidades interpersonales",
+            "contactForm": "Formulario de contacto"
+        },
+        "personalData": {
+            "name": "Jesús",
+            "surname": "López Pinzolas",
+            "picture": "img/jesusLopezPinzolas.png",
+            "phone": 662221627,
+            "email": "jesuslpinzolas@gmail.com",
+            "address": "Granada, España",
+            "description": "Soy un Técnico Superior en Desarrollo de Aplicaciones Web áltamente motivado con conocimientos previos en Física Computacional, buscando trabajo como desarrollador de web y aplicaciones multimendia.",
+            "socialNetworks": [
+                {
+                    "name": "github",
+                    "link": "https://github.com/Trucosuso"
+                },
+                {
+                    "name": "linkedin",
+                    "link": "https://linkedin.com/JesusLPinzolas"
+                }
+            ]
+        },
+        "experience": [],
+        "education": [
+            {
+                "title": "Técnico Superior en Desarrollo de Aplicaciones Web",
+                "location": "I. E. S. Francisco Ayala",
+                "startDate": "Sep 2018",
+                "endDate": "Jun 2021",
+                "moreInfo": []
+            },
+            {
+                "title": "Grando en Física - No acabado",
+                "location": "Universidad de Granada",
+                "startDate": "Sep 2012",
+                "endDate": "Jun 2019",
+                "moreInfo": []
+            }
+        ],
+        "portfolio": [
+            {
+                "title": "Super Pigeon",
+                "description": "Super Pigeon esun juego realizado en JavaScript. Está basado en Super Pang. Con este proyecto he practicado con clases, animaciones y SVG en JavaScript. Utilizando MVC. También he utilizado este proyecto para aprender cómo trabajar con gitflow y versionado semántico.",
+                "images": [
+                    "img/SuperPigeon/SuperPigeon1.png",
+                    "img/SuperPigeon/SuperPigeon2.png",
+                    "img/SuperPigeon/SuperPigeon3.png",
+                    "img/SuperPigeon/SuperPigeon4.png"
+                ],
+                "tags": [
+                    "JavaScript",
+                    "SVG",
+                    "Git flow",
+                    "Semver"
+                ],
+                "productionURL": "https://trucosuso.github.io/SuperPigeon/",
+                "repoURL": "https://github.com/Trucosuso/SuperPigeon"
+            },
+            {
+                "title": "Web APOD moderna",
+                "description": "Una versión actualizada de la página web de APOD de NASA. Los datos de APOD son recogidos mediante la APOD API de Paweł Pleskaczyński. Con este proyecto he practicado con Promesas y la API Fetch en JavaScript. Además he utilizado MVC.",
+                "images": [
+                    "img/APODWeb/APODWeb1.png",
+                    "img/APODWeb/APODWeb2.png",
+                    "img/APODWeb/APODWeb3.png",
+                    "img/APODWeb/APODWeb4.png"
+                ],
+                "tags": [
+                    "JavaScript",
+                    "bootstrap",
+                    "Git flow",
+                    "Fetch API",
+                    "Custom Elements",
+                    "MVC"
+                ],
+                "productionURL": "https://trucosuso.github.io/APODWeb/",
+                "repoURL": "https://github.com/Trucosuso/APODWeb"
+            },
+            {
+                "title": "Landing Page de Il Gerbillo Mangiono",
+                "description": "Landing page de una pizzeria ficticia llamada Il Gerbillo Mangiono. Proyecto conjunto para las asignaturas de Diseño de Interfaces Web y Desarrollo Web en Entorno Cliente. En este proyecto he utilizado jQuery, CSS Grid, Flexbox y mediaqueries.",
+                "images": [
+                    "img/IlGerbilloMangiono/IlGerbilloMangiono1.png",
+                    "img/IlGerbilloMangiono/IlGerbilloMangiono2.png",
+                    "img/IlGerbilloMangiono/IlGerbilloMangiono3.png",
+                    "img/IlGerbilloMangiono/IlGerbilloMangiono4.png"
+                ],
+                "tags": [
+                    "JavaScript",
+                    "CSS",
+                    "jQuery",
+                    "AJAX",
+                    "ARIA"
+                ],
+                "productionURL": "https://trucosuso.github.io/landingPage/",
+                "repoURL": "https://github.com/Trucosuso/landingPage"
+            },
+            {
+                "title": "Jungle Home",
+                "description": "Diseño web de una tienda de plantas ficticia. Proyecto para Diseño de Interfaces Web. Hecho por Sergio Ruiz y yo.",
+                "images": [
+                    "img/JungleHome/JungleHome1.png",
+                    "img/JungleHome/JungleHome2.png",
+                    "img/JungleHome/JungleHome3.png",
+                    "img/JungleHome/JungleHome4.png",
+                    "img/JungleHome/JungleHome5.png"
+                ],
+                "tags": [
+                    "HTML",
+                    "CSS",
+                    "jQuery"
+                ],
+                "productionURL": "https://trucosuso.github.io/JungleHomeWeb/",
+                "repoURL": "https://github.com/Trucosuso/JungleHomeWeb"
+            },
+            {
+                "title": "Web de app de notas",
+                "description": "Aplicación web para tomar notas hecha en JavaScript. En este proyecto he utilizado clases de JavaScript, MVC y la API Web Storage.",
+                "images": [
+                    "img/NotesApp/NotesApp1.png",
+                    "img/NotesApp/NotesApp2.png",
+                    "img/NotesApp/NotesApp3.png",
+                    "img/NotesApp/NotesApp4.png"
+                ],
+                "tags": [
+                    "JavaScript",
+                    "Web Storage API",
+                    "MVC"
+                ],
+                "productionURL": "https://trucosuso.github.io/notesApp/",
+                "repoURL": "https://github.com/Trucosuso/notesApp"
+            },
+            {
+                "title": "Lista de lecturas",
+                "description": "Lista de lecturas online. En este proyecto he practicado con eventos, clases y objetos en JavaScript. Además he trabajado con el HTML DOM. Tambien he aprovechado este proyecto para poner al día mi conocimiento de Bootstrap.",
+                "images": [
+                    "img/ReadingList/ReadingList1.png",
+                    "img/ReadingList/ReadingList2.png",
+                    "img/ReadingList/ReadingList3.png",
+                    "img/ReadingList/ReadingList4.png"
+                ],
+                "tags": [
+                    "JavaScript",
+                    "Bootstrap"
+                ],
+                "productionURL": "https://trucosuso.github.io/MyReadingList/",
+                "repoURL": "https://github.com/Trucosuso/MyReadingList"
+            }
+        ],
+        "skills": [
+            {
+                "groupName": "Frontend",
+                "groupItems": [
+                    {
+                        "name": "Bases - HTML5, CSS3, JavaScript, jQuery",
+                        "percentage": 95
+                    },
+                    {
+                        "name": "Vue.js",
+                        "percentage": 70
+                    },
+                    {
+                        "name": "Angular",
+                        "percentage": 10
+                    },
+                    {
+                        "name": "Bootstrap",
+                        "percentage": 90
+                    }
+                ]
+            },
+            {
+                "groupName": "Backend",
+                "groupItems": [
+                    {
+                        "name": "Bases - PHP, Python, JavaScript",
+                        "percentage": 55
+                    },
+                    {
+                        "name": "Bases de datos - MariaDB / MySQL, OracleDBMS, MongoDB",
+                        "percentage": 75
+                    }
+                ]
+            },
+            {
+                "groupName": "Otros",
+                "groupItems": [
+                    {
+                        "name": "Ciencia - C++, FORTRAN, GNUPlot, LyX",
+                        "percentage": 65
+                    },
+                    {
+                        "name": "Control de versiones - Git, Gitea, GitHub",
+                        "percentage": 70
+                    }
+                ]
+            }
+        ],
+        "languages": [
+            {
+                "title": "Español - Nativo",
+                "location": "",
+                "moreInfo": []
+            },
+            {
+                "title": "Inglés - B2",
+                "location": "Cambridge English: First (FCE)",
+                "moreInfo": []
+            },
+            {
+                "title": "Alemán - B1",
+                "location": "Escuela Oficial de Idiomas (EOI)",
+                "moreInfo": []
+            }
+        ],
+        "interpersonalSkills": [
+            "Trabajo en equipo",
+            "Compromiso",
+            "Organización",
+            "Multitasking",
+            "Resolución de problemas",
+            "Pensamiento crítico",
+            "Flexibilidad",
+            "Comunicación e inteligencia emocional"
+        ]
+    },
+    "en": {
+        "sectionNames": {
+            "personalData": "About me",
+            "experience": "Experience",
+            "education": "Education",
+            "skills": "Working Skills",
+            "languages": "Languages",
+            "portfolio": "Portfolio",
+            "interpersonalSkills": "Interpersonal Skills",
+            "contactForm": "Contact Form"
+        },
+        "personalData": {
+            "name": "Jesús",
+            "surname": "López Pinzolas",
+            "picture": "img/jesusLopezPinzolas.png",
+            "phone": 662221627,
+            "email": "jesuslpinzolas@gmail.com",
+            "address": "Granada, Spain",
+            "description": "I am a very motivated Higher Technician in Development of Web Applications with previous knowledge in Computational Physics, looking for a job as a Web and Multimedia Application developer.",
+            "socialNetworks": [
+                {
+                    "name": "github",
+                    "link": "https://github.com/Trucosuso"
+                },
+                {
+                    "name": "twitter",
+                    "link": "https://twitter.com/Trucosuso"
+                }
+            ]
+        },
+        "experience": [],
+        "education": [
+            {
+                "title": "Higher Technician in Development of Web Applications",
+                "location": "I. E. S. Francisco Ayala",
+                "startDate": "Sep 2018",
+                "endDate": "Jun 2021",
+                "moreInfo": []
+            },
+            {
+                "title": "Bachelor's Degree in Physics - Unfinished",
+                "location": "University of Granada",
+                "startDate": "Sep 2012",
+                "endDate": "Jun 2019",
+                "moreInfo": []
+            }
+        ],
+        "portfolio": [
+            {
+                "title": "Super Pigeon",
+                "description": "Super Pigeon game made in JavaScript. It is based on Super Pang. With this project I have practiced with JavaScript animations, classes, SVG and MVC. I also used this project to learn how to work with Git flow and semantic versioning",
+                "images": [
+                    "img/SuperPigeon/SuperPigeon1.png",
+                    "img/SuperPigeon/SuperPigeon2.png",
+                    "img/SuperPigeon/SuperPigeon3.png",
+                    "img/SuperPigeon/SuperPigeon4.png"
+                ],
+                "tags": [
+                    "JavaScript",
+                    "SVG",
+                    "Git flow",
+                    "Semver"
+                ],
+                "productionURL": "https://trucosuso.github.io/SuperPigeon/",
+                "repoURL": "https://github.com/Trucosuso/SuperPigeon"
+            },
+            {
+                "title": "Modern APOD Web",
+                "description": "Modern web to explore NASA's APOD archive. To fetch the data from NASA's APOD website it uses Paweł Pleskaczyński's APOD API. With this project I have practiced with JavaScript Promises, the Fetch API and MVC.",
+                "images": [
+                    "img/APODWeb/APODWeb1.png",
+                    "img/APODWeb/APODWeb2.png",
+                    "img/APODWeb/APODWeb3.png",
+                    "img/APODWeb/APODWeb4.png"
+                ],
+                "tags": [
+                    "JavaScript",
+                    "bootstrap",
+                    "Git flow",
+                    "Fetch API",
+                    "Custom Elements",
+                    "MVC"
+                ],
+                "productionURL": "https://trucosuso.github.io/APODWeb/",
+                "repoURL": "https://github.com/Trucosuso/APODWeb"
+            },
+            {
+                "title": "Il Gerbillo Mangiono Landing Page",
+                "description": "Landing page of a fake pizzeria called Il Gerbillo Mangiono. Project for Web Interfaces Design and Web Development in Client Environment. In this project I have used jQuery, CSS Grid, Flexbox and mediaqueries.",
+                "images": [
+                    "img/IlGerbilloMangiono/IlGerbilloMangiono1.png",
+                    "img/IlGerbilloMangiono/IlGerbilloMangiono2.png",
+                    "img/IlGerbilloMangiono/IlGerbilloMangiono3.png",
+                    "img/IlGerbilloMangiono/IlGerbilloMangiono4.png"
+                ],
+                "tags": [
+                    "JavaScript",
+                    "CSS",
+                    "jQuery",
+                    "AJAX",
+                    "ARIA"
+                ],
+                "productionURL": "https://trucosuso.github.io/landingPage/",
+                "repoURL": "https://github.com/Trucosuso/landingPage"
+            },
+            {
+                "title": "Jungle Home",
+                "description": "Web desing of a fake plant store. Project for Web Interfaces Design. Made by Sergio Ruiz and me.",
+                "images": [
+                    "img/JungleHome/JungleHome1.png",
+                    "img/JungleHome/JungleHome2.png",
+                    "img/JungleHome/JungleHome3.png",
+                    "img/JungleHome/JungleHome4.png",
+                    "img/JungleHome/JungleHome5.png"
+                ],
+                "tags": [
+                    "HTML",
+                    "CSS",
+                    "jQuery"
+                ],
+                "productionURL": "https://trucosuso.github.io/JungleHomeWeb/",
+                "repoURL": "https://github.com/Trucosuso/JungleHomeWeb"
+            },
+            {
+                "title": "Notes Web App",
+                "description": "App for taking notes made in JavaScript. With this proyect I have practiced with JavaScript classes, MVC and the Web Storage API.",
+                "images": [
+                    "img/NotesApp/NotesApp1.png",
+                    "img/NotesApp/NotesApp2.png",
+                    "img/NotesApp/NotesApp3.png",
+                    "img/NotesApp/NotesApp4.png"
+                ],
+                "tags": [
+                    "JavaScript",
+                    "Web Storage API",
+                    "MVC"
+                ],
+                "productionURL": "https://trucosuso.github.io/notesApp/",
+                "repoURL": "https://github.com/Trucosuso/notesApp"
+            },
+            {
+                "title": "My Reading List",
+                "description": "An online reading list. With this project I have practiced with JavaScript events, classes, objects and working with the HTML DOM. I also used this project to brush up my Bootstrap knowledge.",
+                "images": [
+                    "img/ReadingList/ReadingList1.png",
+                    "img/ReadingList/ReadingList2.png",
+                    "img/ReadingList/ReadingList3.png",
+                    "img/ReadingList/ReadingList4.png"
+                ],
+                "tags": [
+                    "JavaScript",
+                    "Bootstrap"
+                ],
+                "productionURL": "https://trucosuso.github.io/MyReadingList/",
+                "repoURL": "https://github.com/Trucosuso/MyReadingList"
+            }
+        ],
+        "skills": [
+            {
+                "groupName": "Frontend",
+                "groupItems": [
+                    {
+                        "name": "Bases - HTML5, CSS3, JavaScript, jQuery",
+                        "percentage": 95
+                    },
+                    {
+                        "name": "Vue.js",
+                        "percentage": 70
+                    },
+                    {
+                        "name": "Angular",
+                        "percentage": 10
+                    },
+                    {
+                        "name": "Bootstrap",
+                        "percentage": 90
+                    }
+                ]
+            },
+            {
+                "groupName": "Backend",
+                "groupItems": [
+                    {
+                        "name": "Bases - PHP, Python, JavaScript",
+                        "percentage": 55
+                    },
+                    {
+                        "name": "Databases - MariaDB / MySQL, OracleDBMS, MongoDB",
+                        "percentage": 75
+                    }
+                ]
+            },
+            {
+                "groupName": "Others",
+                "groupItems": [
+                    {
+                        "name": "Science - C++, FORTRAN, GNUPlot, LyX",
+                        "percentage": 65
+                    },
+                    {
+                        "name": "Version Control - Git, Gitea, GitHub",
+                        "percentage": 70
+                    }
+                ]
+            }
+        ],
+        "languages": [
+            {
+                "title": "Spanish - Native",
+                "location": "",
+                "moreInfo": []
+            },
+            {
+                "title": "English - B2",
+                "location": "Cambridge English: First (FCE)",
+                "moreInfo": []
+            },
+            {
+                "title": "German - B1",
+                "location": "Escuela Oficial de Idiomas (EOI)",
+                "moreInfo": []
+            }
+        ],
+        "interpersonalSkills": [
+            "Teamwork",
+            "Commitment",
+            "Planning and organization",
+            "Multitasking",
+            "Problem Solving",
+            "Critical Thinking",
+            "Flexibility",
+            "Communication and Emotional Intelligence"
+        ]
+    }
+}
