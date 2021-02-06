@@ -23,7 +23,7 @@ npm run build
 ```
 
 ### Deploy to github pages
-To deploy to github pages run
+To deploy to github pages run. Will discard uncommited changes
 ```
 npm run deploy
 ```
