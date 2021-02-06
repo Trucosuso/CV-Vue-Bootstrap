@@ -38,16 +38,25 @@
                 <b-nav-item href="#section-personal-data">
                     {{ sectionNames.personalData }}
                 </b-nav-item>
-                <b-nav-item href="#section-experience">
+                <b-nav-item
+                    v-if="experience.length != 0"
+                    href="#section-experience"
+                >
                     {{ sectionNames.experience }}
                 </b-nav-item>
-                <b-nav-item href="#section-education">
+                <b-nav-item
+                    v-if="education.length != 0"
+                    href="#section-education"
+                >
                     {{ sectionNames.education }}
                 </b-nav-item>
                 <b-nav-item href="#section-skills">
                     {{ sectionNames.skills }}
                 </b-nav-item>
-                <b-nav-item href="#section-languages">
+                <b-nav-item
+                    v-if="languages.length != 0"
+                    href="#section-languages"
+                >
                     {{ sectionNames.languages }}
                 </b-nav-item>
                 <b-nav-item href="#section-portfolio">
@@ -71,7 +80,7 @@ export default {
         cvData: {
             type: Object,
             default: function () {
-                return {};
+                return null;
             },
         },
         sectionNames: {
@@ -102,16 +111,46 @@ export default {
         },
         otherLanguage: function () {
             if (this.spanish) {
-                return "Change language"
+                return "Change language";
             }
-            return "Cambiar idioma"
-        }
+            return "Cambiar idioma";
+        },
+        experience: function () {
+            if (this.cvData === null) {
+                return undefined;
+            }
+            if (this.spanish) {
+                return this.cvData.es.experience;
+            } else {
+                return this.cvData.en.experience;
+            }
+        },
+        education: function () {
+            if (this.cvData === null) {
+                return undefined;
+            }
+            if (this.spanish) {
+                return this.cvData.es.education;
+            } else {
+                return this.cvData.en.education;
+            }
+        },
+        languages: function () {
+            if (this.cvData === null) {
+                return undefined;
+            }
+            if (this.spanish) {
+                return this.cvData.es.languages;
+            } else {
+                return this.cvData.en.languages;
+            }
+        },
     },
     mounted() {},
     methods: {
         changeLanguage: function () {
             this.$emit("changeLanguage");
-        }
+        },
     },
 };
 </script>
